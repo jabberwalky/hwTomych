@@ -1,21 +1,18 @@
 //
-//  MainViewController.m
+//  RegisterViewController.m
 //  hw1
 //
-//  Created by Admin on 21.02.14.
+//  Created by Admin on 26.02.14.
 //  Copyright (c) 2014 Admin. All rights reserved.
 //
 
-#import "MainViewController.h"
+#import "RegisterViewController.h"
 
-@interface MainViewController ()
-
+@interface RegisterViewController ()
 
 @end
 
-@implementation MainViewController
-
-int counter = 0;
+@implementation RegisterViewController
 
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
 {
@@ -37,8 +34,5 @@ int counter = 0;
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
 }
-
-
-
 
 @end

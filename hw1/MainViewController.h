@@ -9,10 +9,8 @@
 #import <UIKit/UIKit.h>
 
 @interface MainViewController : UIViewController
-@property (weak, nonatomic) IBOutlet UILabel *clickLabel;
-@property (weak, nonatomic) IBOutlet UIButton *clickButton;
-@property (weak, nonatomic) IBOutlet UILabel *supportativeLabel;
 
+@property (weak, nonatomic) IBOutlet UIButton *clickButton;
 
 
 @end

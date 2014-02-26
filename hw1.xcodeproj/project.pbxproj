@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		844A112418BE7C9700B323F5 /* RegisterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 844A112318BE7C9700B323F5 /* RegisterViewController.m */; };
 		84830E4018B7985E008F40AD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84830E3F18B7985E008F40AD /* Foundation.framework */; };
 		84830E4218B7985E008F40AD /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84830E4118B7985E008F40AD /* CoreGraphics.framework */; };
 		84830E4418B7985E008F40AD /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84830E4318B7985E008F40AD /* UIKit.framework */; };
@@ -34,6 +35,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		844A112218BE7C9700B323F5 /* RegisterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RegisterViewController.h; sourceTree = "<group>"; };
+		844A112318BE7C9700B323F5 /* RegisterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RegisterViewController.m; sourceTree = "<group>"; };
 		84830E3C18B7985E008F40AD /* hw1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = hw1.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		84830E3F18B7985E008F40AD /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		84830E4118B7985E008F40AD /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -119,6 +122,8 @@
 				84830E7318B7A1C7008F40AD /* myAmazingStoryboard.storyboard */,
 				84830E7518B7A276008F40AD /* MainViewController.h */,
 				84830E7618B7A276008F40AD /* MainViewController.m */,
+				844A112218BE7C9700B323F5 /* RegisterViewController.h */,
+				844A112318BE7C9700B323F5 /* RegisterViewController.m */,
 			);
 			path = hw1;
 			sourceTree = "<group>";
@@ -251,6 +256,7 @@
 				84830E5018B7985E008F40AD /* AppDelegate.m in Sources */,
 				84830E7718B7A276008F40AD /* MainViewController.m in Sources */,
 				84830E4C18B7985E008F40AD /* main.m in Sources */,
+				844A112418BE7C9700B323F5 /* RegisterViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -453,6 +459,7 @@
 				84830E6A18B7985E008F40AD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		84830E6B18B7985E008F40AD /* Build configuration list for PBXNativeTarget "hw1Tests" */ = {
 			isa = XCConfigurationList;
@@ -461,6 +468,7 @@
 				84830E6D18B7985E008F40AD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
