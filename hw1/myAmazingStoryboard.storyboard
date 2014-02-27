@@ -38,7 +38,6 @@
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
-                                    <action selector="onButtonClick:" destination="DGV-6R-COt" eventType="touchUpInside" id="9zi-XG-uY3"/>
                                     <segue destination="6zt-yN-wfJ" kind="modal" id="EoF-Ql-5eV"/>
                                 </connections>
                             </button>
@@ -107,10 +106,10 @@
             </objects>
             <point key="canvasLocation" x="31" y="776"/>
         </scene>
-        <!--View Controller-->
+        <!--Register View Controller-->
         <scene sceneID="TYe-iN-0Ky">
             <objects>
-                <viewController id="gHh-pa-dUd" sceneMemberID="viewController">
+                <viewController id="gHh-pa-dUd" customClass="RegisterViewController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="rAm-UG-qZp"/>
                         <viewControllerLayoutGuide type="bottom" id="e1S-Wf-Y79"/>
@@ -129,11 +128,7 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
                     <navigationItem key="navigationItem" id="yAz-Rk-Ran">
-                        <barButtonItem key="leftBarButtonItem" title="Cancel" id="ygo-EK-pqY">
-                            <connections>
-                                <segue destination="DGV-6R-COt" kind="push" id="sTi-No-IcV"/>
-                            </connections>
-                        </barButtonItem>
+                        <barButtonItem key="leftBarButtonItem" title="Cancel" id="ygo-EK-pqY"/>
                     </navigationItem>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="c9l-Dq-iRz" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -146,7 +141,4 @@
         <simulatedOrientationMetrics key="orientation"/>
         <simulatedScreenMetrics key="destination"/>
     </simulatedMetricsContainer>
-    <inferredMetricsTieBreakers>
-        <segue reference="sTi-No-IcV"/>
-    </inferredMetricsTieBreakers>
 </document>
