@@ -32,7 +32,13 @@
 - (void)didReceiveMemoryWarning
 {
     [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
+    // Dispose of any resources that can be recreated.ыzzzIBAction)cancelModal:(id)sender {
+    
 }
+- (IBAction)cancelAction:(UIBarButtonItem *)sender {
+    [self dismissViewControllerAnimated:YES completion:nil];
+}
+
+
 
 @end
