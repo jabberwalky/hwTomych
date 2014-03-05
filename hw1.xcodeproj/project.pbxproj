@@ -22,6 +22,8 @@
 		84830E6518B7985E008F40AD /* hw1Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 84830E6418B7985E008F40AD /* hw1Tests.m */; };
 		84830E7418B7A1C7008F40AD /* myAmazingStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84830E7318B7A1C7008F40AD /* myAmazingStoryboard.storyboard */; };
 		84830E7718B7A276008F40AD /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84830E7618B7A276008F40AD /* MainViewController.m */; };
+		84A8205518C79E830072B099 /* marshrutka.png in Resources */ = {isa = PBXBuildFile; fileRef = 84A8205418C79E830072B099 /* marshrutka.png */; };
+		84A8205818C79FC20072B099 /* RouteViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84A8205718C79FC20072B099 /* RouteViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -56,6 +58,9 @@
 		84830E7318B7A1C7008F40AD /* myAmazingStoryboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = myAmazingStoryboard.storyboard; sourceTree = "<group>"; };
 		84830E7518B7A276008F40AD /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
 		84830E7618B7A276008F40AD /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		84A8205418C79E830072B099 /* marshrutka.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = marshrutka.png; sourceTree = "<group>"; };
+		84A8205618C79FC20072B099 /* RouteViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RouteViewController.h; sourceTree = "<group>"; };
+		84A8205718C79FC20072B099 /* RouteViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RouteViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -124,6 +129,8 @@
 				84830E7618B7A276008F40AD /* MainViewController.m */,
 				844A112218BE7C9700B323F5 /* RegisterViewController.h */,
 				844A112318BE7C9700B323F5 /* RegisterViewController.m */,
+				84A8205618C79FC20072B099 /* RouteViewController.h */,
+				84A8205718C79FC20072B099 /* RouteViewController.m */,
 			);
 			path = hw1;
 			sourceTree = "<group>";
@@ -131,6 +138,7 @@
 		84830E4618B7985E008F40AD /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				84A8205418C79E830072B099 /* marshrutka.png */,
 				84830E4718B7985E008F40AD /* hw1-Info.plist */,
 				84830E4818B7985E008F40AD /* InfoPlist.strings */,
 				84830E4B18B7985E008F40AD /* main.m */,
@@ -235,6 +243,7 @@
 				84830E7418B7A1C7008F40AD /* myAmazingStoryboard.storyboard in Resources */,
 				84830E4A18B7985E008F40AD /* InfoPlist.strings in Resources */,
 				84830E5218B7985E008F40AD /* Images.xcassets in Resources */,
+				84A8205518C79E830072B099 /* marshrutka.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -255,6 +264,7 @@
 			files = (
 				84830E5018B7985E008F40AD /* AppDelegate.m in Sources */,
 				84830E7718B7A276008F40AD /* MainViewController.m in Sources */,
+				84A8205818C79FC20072B099 /* RouteViewController.m in Sources */,
 				84830E4C18B7985E008F40AD /* main.m in Sources */,
 				844A112418BE7C9700B323F5 /* RegisterViewController.m in Sources */,
 			);
